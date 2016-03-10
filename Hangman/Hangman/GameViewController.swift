@@ -132,6 +132,7 @@ class GameViewController: UIViewController {
     }
     
     func isCorrect(guessedCharacter : Character) {
+        listOfGuessedCharacters.append(guessedCharacter)
         var tempString = ""
         var i = 0
         var unknownsLeft = 0
